@@ -51,7 +51,7 @@ from PIL import ImageFile
  
  ![image](https://user-images.githubusercontent.com/77229486/126877026-89a9d16f-4ccc-4df7-aaee-3e57de5677a4.png)
 
- ##### Step-3: Use "Choose File" button for uploading the image and "Predict" button" for prediction.
+ ##### Step-3: Use "Choose File" button for uploading the image and "Predict image" button" for prediction.
  
  ![image](https://user-images.githubusercontent.com/77229486/126877228-ef14e315-8060-482a-b716-edb71cfa16ae.png)
  
