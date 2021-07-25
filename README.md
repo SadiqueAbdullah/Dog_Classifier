@@ -124,7 +124,7 @@ With Resnet50 network the model Test accuracy has improved to 79.4258% from 42.8
 
 Added a Dropout layer with 0.4 Dropout rate before output layer, improved Test accuracy to 81.93%. Next I will change the Epoch and check for the result.
 
-With 0.4 Dropout rate , epochs=20 and Batch size=on Resnet50 network model, The Test accuracy improved to 82.4163%.
+With 0.4 Dropout rate , epochs=20 and Batch size=on Resnet50 network model, The Test accuracy improved to 83.1340%.
 
 ## Improvement:
 
@@ -142,7 +142,7 @@ With 0.4 Dropout rate , epochs=20 and Batch size=on Resnet50 network model, The 
 
 ## Conclusion:
 
-After training the pretrained ResNet50 model by adding pooling layers and hyperparameter tuning, the accuracy of 82.4163% was achieved.
+After training the pretrained ResNet50 model by adding pooling layers and hyperparameter tuning, the accuracy of 83.1340% was achieved.
 
 # Web app for Dog breed classification
 
