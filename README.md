@@ -47,7 +47,7 @@ from PIL import ImageFile
 
 ## Data Exploration:
 
-Provided Dog and Human dataset was explored through the respective classifers (dog_detector & face_detector). following were the findings through Data exploration
+Provided Dog and Human dataset was explored through the respective classifiers (dog_detector & face_detector). following were the findings through Data exploration
 
 There are 133 total dog categories.
 There are 8351 total dog images.
@@ -82,7 +82,7 @@ It is best to think of nb_samples as the number of 3D tensors (where each 3D ten
 ## Implementation:
 
 After writing algorithm for Dog and Human face Detectors I Created a CNN Model to Classify Dog Breeds (from Scratch). it needed help of GPU to get trained.
-The the below mentioned CNN Architecture was used;
+The below mentioned CNN Architecture was used;
 
 ![image](https://user-images.githubusercontent.com/77229486/126887837-d9ba3fa4-b01f-4d54-b77d-89c6acb71d71.png)
 
@@ -110,7 +110,7 @@ ResNet50_prediction: Test accuracy: 82.4163%
 
 I used ResNet50 model as my model for final predictions as its base accuracy was best out of 3 models I tried.
 
-To enhance the Test accuracy and reduce execution time, Created a CNN to Classify Dog Breeds (using Transfer Learning). As the given dataset is small with 6680 entries and new data is similar to original training data, we use the following following method as guidline for Architecture;
+To enhance the Test accuracy and reduce execution time, Created a CNN to Classify Dog Breeds (using Transfer Learning). As the given dataset is small with 6680 entries and new data is similar to original training data, we use the following method as guideline for Architecture;
 
 a) slice off the end of the neural network
 
@@ -124,7 +124,7 @@ With Resnet50 network the model Test accuracy has improved to 79.4258% from 42.8
 
 Added a Dropout layer with 0.4 Dropout rate before output layer, improved Test accuracy to 81.93%. Next I will change the Epoch and check for the result.
 
-With 0.4 Dropout rate , epochs=20 and Batch size=on Resnet50 netwrork model, The Test accuracy improved to 82.4163%.
+With 0.4 Dropout rate , epochs=20 and Batch size=on Resnet50 network model, The Test accuracy improved to 82.4163%.
 
 ## Improvement:
 
@@ -136,9 +136,9 @@ With 0.4 Dropout rate , epochs=20 and Batch size=on Resnet50 netwrork model, The
 
 3) Train the model using other Transfer learning model using Inception, Exception networks.
 
-4) Increase the depth of the network for identifying additional features by adding more set of Convolutional layer and pooling layer .
+4) Increase the depth of the network for identifying additional features by adding more set of Convolutional layer and pooling layer.
 
-5) Validation loss is not increasing consitently with increasing the epochs. Need to experiment with reduced epochs for the Test accuracy improvement.
+5) Validation loss is not increasing consistently with increasing the epochs. Need to experiment with reduced epochs for the Test accuracy improvement.
 
 ## Conclusion:
 
@@ -149,8 +149,8 @@ After training the pretrained ResNet50 model by adding pooling layers and hyperp
 ### Key elements Web app for Dog breed classification:
 
 1) Train.classifer.py: CNN model was trained and saved as "trained_saved_model.h5".
-2) website.py : Flask app to predict the uploaded image as a dog breed classifier. VGG16 pretrained classifier was used for imgae classification.
-3) index.html : This file is linked with flask app and coded in html which enables user to upload the image and then predict the dog breed with probablity numbers.
+2) website.py : Flask app to predict the uploaded image as a dog breed classifier. VGG16 pretrained classifier was used for image classification.
+3) index.html : This file is linked with flask app and coded in html which enables user to upload the image and then predict the dog breed with probability numbers.
 
 ### Instructions for running/testing the Web app:
 
