@@ -142,7 +142,7 @@ With 0.4 Dropout rate , epochs=20 and Batch size=on Resnet50 netwrork model, The
 
 ## Conclusion:
 
-After training the pretrained Imagenet model by adding pooling layers and hyperparameter tuning, the accuracy of 82.4163% was achieved.
+After training the pretrained ResNet50 model by adding pooling layers and hyperparameter tuning, the accuracy of 82.4163% was achieved.
 
 # Web app for Dog breed classification
 
