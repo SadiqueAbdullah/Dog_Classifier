@@ -61,6 +61,9 @@ There are 13233 total human images.
 ## Data Visualization:
 
 I have covered the findings in above tab (Data Visualization).
+![image](https://user-images.githubusercontent.com/77229486/126889417-8cf131e5-5274-4da6-8abc-140935baba22.png)
+
+
 
 ## Data Preprocessing:
 
