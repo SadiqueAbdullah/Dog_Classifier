@@ -26,7 +26,7 @@ Step 7: Test Your Algorithm
 
 ## Problem Statement:
 
-Here we will be dealing with a image classification related to Dog breed identification. Algorithm has to identify and classify the Dog and its breed through the image as an input.
+Here we will be building an image classifier related to Dog breed identification. Algorithm has to identify and classify the Dog and its breed through the image as an input.
 
 ## Metrics:
 
