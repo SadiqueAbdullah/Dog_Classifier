@@ -3,7 +3,7 @@
 ## Project Overview:
 
 This Project is related to learning and implementing image classification using Deep Neural Network.
-This project uses Convolutional Neural Networks (CNNs)! In this project, I built a pipeline to process real-world, user-uploaded images. Given an image of a dog, the algorithm will identify an estimate of the canine’s breed out of roughly 133 known breeds. If supplied an image of a human, the code will identify the resembling dog breed.
+This project uses Convolutional Neural Networks (CNNs)! In this project, I built a pipeline to process user-uploaded images. Given an image of a dog, the algorithm will identify an estimate of the canine’s breed out of roughly 133 known breeds. If supplied an image of a human, the code will identify the resembling dog breed.
 
 #### The Process-flow steps followed in the python Note book "dog_app.ipynb" are mentioned below;
 
